@@ -11,8 +11,3 @@ while True:
         if event.type == pygame.QUIT:
             pygame.quit()
             quit()
-            type(event)
-            isplay.update()
-        if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_ESCAPE:
-                pygame.quit()
